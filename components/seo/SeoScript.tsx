@@ -1,6 +1,6 @@
 import Script from 'next/script';
 
-import { GOOGLE_TRACKING_ID, UMAMI_WEBSITE_ID, PLAUSIBLE_URL, PLAUSIBLE_DOMAIN } from '@/lib/env';
+import { GOOGLE_TRACKING_ID, PLAUSIBLE_DOMAIN, PLAUSIBLE_URL, UMAMI_WEBSITE_ID } from '@/lib/env';
 
 export default function SeoScript() {
   return (
@@ -21,14 +21,14 @@ export default function SeoScript() {
         }}
       />
       <Script
-        src="https://cloud.umami.is/script.js"
-        strategy="afterInteractive"
-        data-website-id={{UMAMI_WEBSITE_ID}}
+        src='https://cloud.umami.is/script.js'
+        strategy='afterInteractive'
+        data-website-id={{ UMAMI_WEBSITE_ID }}
       />
       <Script
         src={`https://${PLAUSIBLE_URL}/js/script.js`}
-        strategy="afterInteractive"
-        data-domain={{PLAUSIBLE_DOMAIN}}
+        strategy='afterInteractive'
+        data-domain={{ PLAUSIBLE_DOMAIN }}
       />
     </>
   );
