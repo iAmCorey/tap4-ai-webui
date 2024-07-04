@@ -1,8 +1,17 @@
+'use client';
+
+import { useEffect } from 'react';
 import Script from 'next/script';
 
-import { GOOGLE_TRACKING_ID, PLAUSIBLE_DOMAIN, PLAUSIBLE_URL, UMAMI_WEBSITE_ID } from '@/lib/env';
+import { GOOGLE_TRACKING_ID, PLAUSIBLE_DOMAIN } from '@/lib/env';
 
 export default function SeoScript() {
+  const umamiWebsiteId = process.env.NEXT_PUBLIC_UMAMI_WEBSITE_ID;
+  const plausibleScriptUrl = process.env.NEXT_PUBLIC_PLAUSIBLE_SCRIPT_URL;
+  const plausibleDomain = process.env.NEXT_PUBLIC_PLAUSIBLE_DOMAIN;
+
+  useEffect(() => {}, [umamiWebsiteId, plausibleScriptUrl, plausibleDomain]);
+
   return (
     <>
       <Script strategy='afterInteractive' src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_TRACKING_ID}`} />
@@ -23,12 +32,26 @@ export default function SeoScript() {
       <Script
         src='https://cloud.umami.is/script.js'
         strategy='afterInteractive'
-        data-website-id={{ UMAMI_WEBSITE_ID }}
+        data-website-id={umamiWebsiteId}
+        onLoad={() => {
+          const script = document.querySelector('link[href="https://cloud.umami.is/script.js"]');
+          console.log(script);
+          if (script) {
+            script.setAttribute('data-website-id', umamiWebsiteId);
+          }
+        }}
       />
       <Script
-        src={`https://${PLAUSIBLE_URL}/js/script.js`}
+        src={plausibleScriptUrl}
         strategy='afterInteractive'
-        data-domain={{ PLAUSIBLE_DOMAIN }}
+        data-domain={PLAUSIBLE_DOMAIN}
+        onLoad={() => {
+          const script = document.querySelector(`link[href="${plausibleScriptUrl}"]`);
+          console.log(script);
+          if (script) {
+            script.setAttribute('data-domain', plausibleDomain);
+          }
+        }}
       />
     </>
   );
