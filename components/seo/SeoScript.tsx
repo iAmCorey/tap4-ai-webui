@@ -35,8 +35,8 @@ export default function SeoScript() {
         data-website-id={umamiWebsiteId}
         onLoad={() => {
           const script = document.querySelector('link[href="https://cloud.umami.is/script.js"]');
-          console.log(script);
-          if (script) {
+          // console.log(script);
+          if (script && umamiWebsiteId) {
             script.setAttribute('data-website-id', umamiWebsiteId);
           }
         }}
@@ -47,8 +47,8 @@ export default function SeoScript() {
         data-domain={PLAUSIBLE_DOMAIN}
         onLoad={() => {
           const script = document.querySelector(`link[href="${plausibleScriptUrl}"]`);
-          console.log(script);
-          if (script) {
+          // console.log(script);
+          if (script && plausibleDomain) {
             script.setAttribute('data-domain', plausibleDomain);
           }
         }}
