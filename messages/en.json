@@ -3,7 +3,7 @@
     "loading": "loading..."
   },
   "Navigation": {
-    "title": "Open-source Tap4 AI Tools Directory",
+    "title": "Magicbox.Tools - Top AI Tools Navigator",
     "discover": "Discover AI",
     "submit": "Submit",
     "newtools": "New Tools",
@@ -11,9 +11,11 @@
     "menu": "menu"
   },
   "Footer": {
-    "title": "Open-source Tap4 AI Tools Directory",
-    "subTitle": "Discover the best AI tools of 2024 with the Tap4 AI Tools Directory!",
+    "title": "Magicbox.Tools",
+    "subTitle": "Top AI Tools Navigator",
+    "description": "Discover the best AI tools with the Magicbox.Tools Directory!",
     "support": "Support",
+    "legal": "Legal",
     "tap4": "Tap4 AI",
     "tattoo": "AI Tattoo Generator",
     "privacy": "Privacy policy",
@@ -118,8 +120,8 @@
     "goHome": "go home"
   },
   "Home": {
-    "title": "Discover The Best AI Tools 2024",
-    "subTitle": "Get your favorite AI tools in Open-source Tap4 AI Tools Directory. AI tools list are updated daily by GPT-4o. It's free to submit here to enhance your SEO now. ",
+    "title": "Discover The Best AI Tools & Websites",
+    "subTitle": "Featuring over 10,000 awesome AI tools websites and continuously updated daily by ChatGPT!",
     "ai-navigate": "AI Tools List",
     "exploreMore": "Get More AI Tools",
     "checkDetail": "View Detail",

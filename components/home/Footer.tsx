@@ -32,14 +32,14 @@ export default function Footer() {
   const t = useTranslations('Footer');
 
   const SupportLinks = [
-    {
-      title: t('tap4'),
-      href: 'https://www.tap4.ai',
-    },
-    {
-      title: t('tattoo'),
-      href: 'https://tattooai.design',
-    },
+    // {
+    //   title: t('tap4'),
+    //   href: 'https://www.tap4.ai',
+    // },
+    // {
+    //   title: t('tattoo'),
+    //   href: 'https://tattooai.design',
+    // },
   ];
 
   const INFO_LIST = [
@@ -54,15 +54,16 @@ export default function Footer() {
   ];
 
   return (
-    <footer className='w-full bg-[#15141A]'>
+    <footer className='w-full bg-white'>
       <div className='mx-auto flex min-h-[251px] max-w-pc flex-col items-center justify-between p-10 pb-5 lg:h-[180px] lg:flex-row lg:px-0 lg:pb-10'>
         <div className='flex flex-col items-center lg:items-stretch'>
-          <h1 className='text-xl font-bold text-white lg:h-8 lg:text-[32px]'>{t('title')}</h1>
-          <h2 className='text-xs'>{t('subTitle')}</h2>
+          <h1 className='mb-1 text-xl font-bold text-black lg:h-8 lg:text-[32px]'>{t('title')}</h1>
+          <h2 className='mb-4 text-sm font-semibold'>{t('subTitle')}</h2>
+          <h2 className='text-xs'>{t('description')}</h2>
         </div>
         <div className='mt-5 flex flex-col items-center gap-y-5 lg:mt-0 lg:flex-row lg:items-stretch lg:gap-x-10'>
           <div className='flex w-full flex-col gap-2'>
-            <h2 className='font-bold'>{t('support')}</h2>
+            {/* <h2 className='font-bold'>{t('support')}</h2> */}
             {SupportLinks.map((item) => (
               <a
                 href={item.href}
@@ -77,6 +78,7 @@ export default function Footer() {
             ))}
           </div>
           <div className='grid grid-cols-2 gap-x-10 gap-y-5 lg:grid-cols-1 lg:gap-3'>
+            <h2 className='font-bold'>{t('legal')}</h2>
             {INFO_LIST.map((item) => (
               <InfoLink key={item.href} href={item.href} title={item.title} />
             ))}

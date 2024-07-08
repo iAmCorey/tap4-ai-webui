@@ -10,7 +10,7 @@ function TitleItem({ children }: { children: React.ReactNode }) {
 }
 
 function ContentItem({ children }: { children: React.ReactNode }) {
-  return <h3 className='mt-3 text-white/60'>{children}</h3>;
+  return <h3 className='mt-3 text-gray-600'>{children}</h3>;
 }
 
 export default function Faq() {

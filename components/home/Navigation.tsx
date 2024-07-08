@@ -8,7 +8,7 @@ import { useTranslations } from 'next-intl';
 import { NAV_LINKS } from '@/lib/constants';
 import { cn } from '@/lib/utils';
 
-import BaseImage from '../image/BaseImage';
+// import BaseImage from '../image/BaseImage';
 import LocaleSwitcher from '../LocaleSwitcher';
 import MenuBtn from './MenuBtn';
 import NavigationDrawer from './NavigationDrawer';
@@ -26,12 +26,19 @@ export default function Navigation() {
 
   return (
     <>
-      <header className='bg-frosted-glass sticky left-0 top-0 z-50 flex h-[64px] bg-[#252A464A] px-5 blur-[60%] filter lg:px-0'>
+      <header className='bg-frosted-glass sticky left-0 top-0 z-50 flex h-[64px] bg-white px-5 blur-[60%] filter lg:px-0'>
         <nav className='mx-auto flex max-w-pc flex-1 items-center'>
-          <div>
+          <div className='flex w-full items-center justify-around lg:w-auto'>
+            <a href='/' className='text-lg'>
+              <span className='font-bold text-orange-400'>MagicBox</span>
+              <span className=''>.Tools</span>
+            </a>
+            <div className='block lg:hidden'>{/* <MenuIcon className="w-4 h-4 text-gray-800" /> */}</div>
+          </div>
+          {/* <div>
             <Link className='hover:opacity-80' href='/' title={t('title')}>
               <BaseImage
-                src='/images/tap4-ai.svg'
+                src='/images/magicbox.svg'
                 alt={t('title')}
                 title={t('title')}
                 width={64}
@@ -39,7 +46,7 @@ export default function Navigation() {
                 className='size-[58px] lg:size-16'
               />
             </Link>
-          </div>
+          </div> */}
           {/* pc */}
           <div className='ml-auto flex h-full items-center gap-x-[46px]'>
             <ul className='hidden h-full flex-1 capitalize lg:flex lg:gap-x-12'>
@@ -47,9 +54,9 @@ export default function Navigation() {
                 <Link key={item.code} href={item.href} title={item.code}>
                   <li
                     className={cn(
-                      'flex h-full items-center text-white/40 hover:text-white',
-                      pathname === item.href && 'text-white',
-                      pathname.includes(item.href) && item.href !== '/' && 'text-white',
+                      'flex h-full items-center text-black hover:text-orange-400',
+                      pathname === item.href && 'text-black',
+                      pathname.includes(item.href) && item.href !== '/' && 'text-black',
                     )}
                   >
                     {item.label}

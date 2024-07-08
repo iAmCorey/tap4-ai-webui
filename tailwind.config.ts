@@ -14,8 +14,6 @@ const config = {
     },
     extend: {
       colors: {
-        'tap4-balck': '#222129',
-        'dark-bg': '#1E1B24',
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
@@ -80,7 +78,7 @@ const config = {
     },
   },
   // eslint-disable-next-line import/no-extraneous-dependencies, global-require
-  plugins: [require('tailwindcss-animate'), require('@tailwindcss/typography')],
+  plugins: [require('tailwindcss-animate'), require('@tailwindcss/typography'), require('@tailwindcss/line-clamp')],
 } satisfies Config;
 
 export default config;
