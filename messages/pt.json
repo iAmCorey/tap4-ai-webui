@@ -1,130 +1,132 @@
 {
   "Common": {
-    "loading": "carregando..."
+    "loading": "Carregando..."
   },
   "Navigation": {
-    "title": "Tap4 Diretório de Ferramentas de IA",
-    "discover": "Descobrir IA",
+    "title": "Magicbox.Tools - Navegador de Principais Ferramentas de AI",
+    "discover": "Descobrir AI",
     "submit": "Enviar",
     "newtools": "Novas Ferramentas",
-    "startup": "Inicialização",
-    "menu": "menu"
+    "startup": "Startup",
+    "menu": "Menu"
   },
   "Footer": {
-    "title": "Tap4 Diretório de Ferramentas de IA",
-    "subTitle": "Descubra as melhores ferramentas de IA de 2024 com o Diretório de Ferramentas de IA do Tap4!",
-    "support": "Apoio",
-    "tap4": "Tap4 AI",
+    "title": "Magicbox.Tools",
+    "subTitle": "Navegador de Principais Ferramentas de AI",
+    "description": "Descubra as melhores ferramentas de AI com o Diretório Magicbox.Tools!",
+    "support": "Suporte",
+    "legal": "Legal",
+    "MagicBox.Tools": "MagicBox.Tools AI",
     "tattoo": "Gerador de Tatuagens AI",
     "privacy": "Política de Privacidade",
     "termsConditions": "Termos e Condições",
-    "contactUs": "Contate-nos"
+    "contactUs": "Contate-Nos"
   },
   "Faq": {
     "title": "Perguntas Frequentes",
     "1": {
-      "question": "O que é o Diretório de Ferramentas de IA do Tap4?",
-      "answer": "O Diretório de Ferramentas de IA do Tap4 - tap4.ai está construindo um diretório de ferramentas de IA que ajuda você a obter suas ferramentas de IA favoritas. Você pode obter ferramentas de escrita de IA, ferramentas de marketing de IA, ferramentas de parafraseamento de IA, ferramentas de SEO de IA, ferramentas de estudo de IA, ferramentas de geração de IA, ferramentas de pesquisa de IA, ferramentas de arte de IA, ferramentas de música de IA, ferramentas de vídeo de IA, ferramentas de codificação de IA, ferramentas de foto de IA e muito mais aqui."
+      "question": "O que é o Diretório de Ferramentas AI MagicBox.Tools de código aberto?",
+      "answer": "Diretório de Ferramentas AI MagicBox.Tools - MagicBox.Tools.ai está construindo um diretório de ferramentas AI que ajuda você a encontrar suas ferramentas AI favoritas. Você pode encontrar aqui ferramentas AI de escrita, ferramentas AI de marketing, ferramentas AI de paráfrase, ferramentas AI de SEO, ferramentas AI de estudo, ferramentas AI de geração, ferramentas AI de pesquisa, ferramentas AI de arte, ferramentas AI de música, ferramentas AI de vídeo, ferramentas AI de codificação, ferramentas AI de foto e muito mais."
     },
     "2": {
-      "question": "Como encontrar suas ferramentas de IA no diretório de ferramentas de IA do Tap4?",
-      "answer-1": "1. Abra tap4.ai.",
-      "answer-2": "2. Explore as ferramentas de IA no diretório de ferramentas de IA do Tap4.",
-      "answer-3": "3. Clique nas ferramentas de IA que você precisa para obter detalhes e visitá-las."
+      "question": "Como encontrar suas ferramentas AI no diretório de ferramentas AI MagicBox.Tools?",
+      "answer-1": "1. Abra MagicBox.Tools.ai.",
+      "answer-2": "2. Explore as ferramentas AI no diretório de ferramentas AI MagicBox.Tools.",
+      "answer-3": "3. Clique na ferramenta AI que você precisa para ver os detalhes e visitá-la."
     },
     "3": {
-      "question": "Quais são os principais recursos do Diretório de Ferramentas de IA do Tap4?",
-      "answer-1": "1. Diretório de Ferramentas de IA Grátis: É grátis encontrar suas ferramentas de IA favoritas aqui.",
-      "answer-2": "2. Lista de Inicialização: A lista de inicialização gratuita para desenvolvedores de ferramentas de IA."
+      "question": "Quais são as principais características do Diretório de Ferramentas AI MagicBox.Tools?",
+      "answer-1": "1. Diretório de Ferramentas AI Gratuito: É gratuito encontrar suas ferramentas AI favoritas aqui.",
+      "answer-2": "2. Lista de Startups: A lista gratuita de startups para desenvolvedores de ferramentas AI."
     },
     "4": {
-      "question": "É gratuito enviar ferramentas de IA para o Diretório de Ferramentas de IA do Tap4?",
-      "answer": "Sim, é grátis atualmente. Mas você deve compartilhar o backlink para o Diretório de Ferramentas de IA do Tap4!"
+      "question": "É gratuito enviar ferramentas AI para o Diretório de Ferramentas AI MagicBox.Tools?",
+      "answer": "Sim, atualmente é gratuito. Mas você deve compartilhar o backlink para o Diretório de Ferramentas AI MagicBox.Tools!"
     },
     "5": {
-      "question": "Qual é a lista de categorias de Ferramentas de IA que o Diretório de Ferramentas de IA do Tap4 suporta?",
-      "answer": "Vamos apoiar todos os tipos de Ferramentas de IA mais tarde. Por favor, aguarde alguns dias."
+      "question": "Quais são as categorias de ferramentas AI que o Diretório de Ferramentas AI MagicBox.Tools suporta?",
+      "answer": "Apoiamos todos os tipos de ferramentas AI posteriormente. Por favor, espere alguns dias."
     },
     "6": {
-      "question": "Qual é a frequência para a atualização de ferramentas de IA no Diretório de IA do Tap4?",
-      "answer": "A lista de ferramentas de IA será atualizada diariamente."
+      "question": "Com que frequência as ferramentas AI são atualizadas no Diretório AI de MagicBox.Tools?",
+      "answer": "A lista de ferramentas AI será atualizada diariamente."
     },
     "7": {
-      "question": "Ele suporta o GPT-4o ou Sora AI aqui?",
-      "answer": "Você pode obter a ferramenta GPT-4o ou Sora AI aqui. Aqui está a introdução do vídeo GPT-4o e Sora, e você pode visitar o site das ferramentas."
+      "question": "GPT-4o ou Sora AI são suportados aqui?",
+      "answer": "Você pode obter a ferramenta GPT-4o ou Sora AI aqui. Aqui está a introdução de GPT-4o e Sora em vídeo, e você pode visitar o site das ferramentas."
     },
     "8": {
-      "question": "Resolução de problemas",
-      "answer": "Se o conteúdo não estiver aparecendo, tente um navegador diferente, limpe seu cache. Se os problemas persistirem, entre em contato conosco em contact@6677.ai."
+      "question": "Solução de Problemas",
+      "answer": "Se o conteúdo não aparecer, tente outro navegador, limpe seu cache. Se os problemas persistirem, entre em contato conosco em contact@magicbox.tools."
     },
     "9": {
-      "question": "Como o conteúdo do Diretório de IA do Tap4 é gerado?",
-      "answer": "O conteúdo da descrição das ferramentas de IA é gerado pelo GPT-4o da OpenAI."
+      "question": "Como o conteúdo do Diretório AI MagicBox.Tools é gerado?",
+      "answer": "O conteúdo da descrição das ferramentas AI é gerado pelo GPT-4o da OpenAI."
     },
     "10": {
-      "question": "Quais são os direitos de uso das ferramentas de IA?",
-      "answer": "O Diretório de Ferramentas de IA do Tap4 é apenas o Diretório de IA para ferramentas de IA. Os direitos de uso das ferramentas de IA são baseados no site das ferramentas de IA."
+      "question": "Quais são os direitos de uso das ferramentas AI?",
+      "answer": "O Diretório de Ferramentas AI MagicBox.Tools é apenas um diretório para ferramentas AI. Os direitos de uso das ferramentas AI são baseados no site das ferramentas AI."
     },
     "11": {
-      "question": "O webui do Diretório de IA do Tap4 é de código aberto?",
-      "answer": "Sim, vamos abrir o código-fonte do webui do Diretório de IA do Tap4 no github (https://github.com/6677-ai/tap4-ai-webui). Por favor, nos dê uma estrela."
+      "question": "A interface web do Diretório AI MagicBox.Tools é de código aberto?",
+      "answer": "Sim, abriremos a interface web do Diretório AI MagicBox.Tools no github (https://github.com/6677-ai/MagicBox.Tools-ai-webui). Por favor, nos dê uma estrela."
     }
   },
   "FooterNavigation": {
     "privacyPolicy": {
-      "1-h1": "Política de Privacidade para o Diretório de Ferramentas de IA do Tap4",
-      "1-p": "Esta página é usada para informar os visitantes sobre minhas políticas com relação à coleta, uso e divulgação de Informações Pessoais caso alguém decida usar meu Serviço. Se você optar por usar meu Serviço, concorda com a coleta e uso de informações em relação a esta política. As Informações Pessoais que eu coleto são usadas para fornecer e melhorar o Serviço. Não usarei ou compartilharei suas informações com ninguém, exceto conforme descrito nesta Política de Privacidade. Os termos usados nesta Política de Privacidade têm os mesmos significados que em nossos Termos e Condições.",
+      "1-h1": "Política de Privacidade para o Diretório de Ferramentas AI MagicBox.Tools de código aberto",
+      "1-p": "Esta página é usada para informar os visitantes sobre minhas políticas em relação à coleta, uso e divulgação de Informações Pessoais se alguém decidir usar meu Serviço. Se você optar por usar meu Serviço, então você concorda com a coleta e uso de informações em relação a esta política. As Informações Pessoais que coleto são usadas para fornecer e melhorar o Serviço. Não usarei nem compartilharei suas informações com ninguém, exceto conforme descrito nesta Política de Privacidade. Os termos usados nesta Política de Privacidade têm os mesmos significados que em nossos Termos e Condições.",
       "2-h2": "1. Coleta e Uso de Informações",
-      "2-p": "Para uma melhor experiência, ao usar nosso Serviço, posso solicitar que você nos forneça certas informações de identificação pessoal. As informações que solicito serão retidas em seu dispositivo e não serão coletadas por mim de forma alguma. O aplicativo usa serviços de terceiros que podem coletar informações usadas para identificá-lo.",
+      "2-p": "Para uma melhor experiência, enquanto usa nosso Serviço, posso exigir que você nos forneça certas informações pessoalmente identificáveis. As informações que solicito serão retidas em seu dispositivo e não serão coletadas por mim de qualquer forma. O aplicativo usa serviços de terceiros que podem coletar informações usadas para identificá-lo.",
       "3-h2": "2. Dados de Registro",
-      "3-p": "Quero informar que sempre que você usar meu Serviço, em caso de erro no aplicativo, coletarei dados e informações (por meio de produtos de terceiros ) em seu telefone chamados Dados de Registro. Esses Dados de Registro podem incluir informações como o endereço de Protocolo de Internet ('IP') do seu dispositivo, nome do dispositivo, versão do sistema operacional, a configuração do aplicativo ao utilizar meu Serviço, o horário e a data do uso do Serviço e outras estatísticas.",
+      "3-p": "Quero informá-lo que sempre que você usa meu Serviço, em caso de um erro no aplicativo, coleto dados e informações (através de produtos de terceiros) em seu telefone chamados Dados de Registro. Esses Dados de Registro podem incluir informações como o endereço de Protocolo de Internet (IP) do seu dispositivo, nome do dispositivo, versão do sistema operacional, a configuração do aplicativo ao utilizar meu Serviço, a hora e data de seu uso do Serviço e outras estatísticas.",
       "4-h2": "3. Cookies",
-      "4-p": "Cookies são arquivos com uma pequena quantidade de dados que são comumente usados como identificadores exclusivos anônimos. Eles são enviados para o seu navegador a partir dos sites que você visita e são armazenados na memória interna do seu dispositivo. Este Serviço não usa explicitamente esses \"cookies\". No entanto, o aplicativo pode usar código e bibliotecas de terceiros que usam \"cookies\" para coletar informações e melhorar seus serviços. Você tem a opção de aceitar ou recusar esses cookies e saber quando um cookie está sendo enviado para seu dispositivo. Se você optar por recusar nossos cookies, talvez não consiga usar algumas partes deste Serviço.",
+      "4-p": "Cookies são arquivos com uma pequena quantidade de dados que são comumente usados como identificadores únicos anônimos. Estes são enviados ao seu navegador a partir dos sites que você visita e são armazenados na memória interna do seu dispositivo. Este Serviço não usa explicitamente esses 'cookies'. No entanto, o aplicativo pode usar código e bibliotecas de terceiros que usam 'cookies' para coletar informações e melhorar seus serviços. Você tem a opção de aceitar ou recusar esses cookies e saber quando um cookie está sendo enviado ao seu dispositivo. Se você optar por recusar nossos cookies, talvez não consiga usar algumas partes deste Serviço.",
       "5-h2": "4. Prestadores de Serviços",
-      "5-p-1": "Posso empregar empresas e indivíduos terceirizados pelos seguintes motivos:",
+      "5-p-1": "Posso empregar empresas e indivíduos terceirizados pelas seguintes razões:",
       "5-li-1": "Para facilitar nosso Serviço;",
       "5-li-2": "Para fornecer o Serviço em nosso nome;",
       "5-li-3": "Para realizar serviços relacionados ao Serviço;",
-      "5-li-4": "Para nos ajudar a analisar como nosso Serviço é utilizado;",
-      "5-p-2": "Quero informar aos usuários deste Serviço que esses terceiros têm acesso às suas Informações Pessoais. O motivo é realizar as tarefas atribuídas a eles em nosso nome. No entanto, eles são obrigados a não divulgar ou usar as informações para qualquer outra finalidade.",
+      "5-li-4": "Para nos ajudar a analisar como nosso Serviço é usado;",
+      "5-p-2": "Quero informar aos usuários deste Serviço que esses terceiros têm acesso às suas Informações Pessoais. A razão é executar as tarefas atribuídas a eles em nosso nome. No entanto, eles são obrigados a não divulgar ou usar as informações para qualquer outra finalidade.",
       "6-h2": "5. Segurança",
-      "6-p": "Valorizo sua confiança ao nos fornecer suas Informações Pessoais, por isso estamos nos esforçando para usar meios comercialmente aceitáveis ​​de protegê-las. Mas lembre-se de que nenhum método de transmissão pela Internet ou método de armazenamento eletrônico é 100% seguro e confiável, e não posso garantir sua segurança absoluta.",
+      "6-p": "Valorizo sua confiança em nos fornecer suas Informações Pessoais, portanto, nos esforçamos para usar meios comercialmente aceitáveis para protegê-las. Mas lembre-se que nenhum método de transmissão pela Internet, ou método de armazenamento eletrônico é 100% seguro e confiável, e não posso garantir sua segurança absoluta.",
       "7-h2": "6. Links para Outros Sites",
-      "7-p": "Este Serviço pode conter links para outros sites. Se você clicar em um link de terceiros, será direcionado para esse site. Observe que esses sites externos não são operados por mim. Portanto, recomendo que você revise a Política de Privacidade desses sites. Não tenho controle sobre e não assumo responsabilidade pelo conteúdo, políticas de privacidade ou práticas de sites ou serviços de terceiros.",
-      "8-h2": "7. Alterações nesta Política de Privacidade",
-      "8-p": "Posso atualizar nossa Política de Privacidade periodicamente. Assim, é recomendável revisar esta página periodicamente para quaisquer alterações. Notificarei você sobre quaisquer alterações publicando a nova Política de Privacidade nesta página. Essas alterações são efetivas imediatamente após serem publicadas nesta página."
+      "7-p": "Este Serviço pode conter links para outros sites. Se você clicar em um link de terceiros, será direcionado para esse site. Observe que esses sites externos não são operados por mim. Portanto, recomendo fortemente que você reveja a Política de Privacidade desses sites. Não tenho controle sobre, e não assumo responsabilidade pelo conteúdo, políticas de privacidade ou práticas de sites ou serviços de terceiros.",
+      "8-h2": "7. Alterações a Esta Política de Privacidade",
+      "8-p": "Posso atualizar nossa Política de Privacidade de tempos em tempos. Portanto, recomenda-se que você revise esta página periodicamente para quaisquer mudanças. Notificarei você de quaisquer mudanças publicando a nova Política de Privacidade nesta página. Essas mudanças são efetivas imediatamente após serem publicadas nesta página."
     },
     "termsConditions": {
-      "1-h1": "Termos de Serviço para o Diretório de IA do Tap4",
-      "1-p": "Bem-vindo ao Diretório de IA do Tap4! Nosso site, localizado em https://tap4.ai (\"Website\"), é dedicado a fornecer a você a capacidade de criar imagens personalizadas. Ao acessar ou usar nosso Website, você concorda em ficar vinculado a estes Termos de Serviço (\"Termos\"). Se você não concorda com qualquer parte dos termos, então você está proibido de usar o Website.",
+      "1-h1": "Termos de Serviço para o Diretório AI MagicBox.Tools",
+      "1-p": "Bem-vindo ao Diretório AI MagicBox.Tools! Nosso site, localizado em https://MagicBox.Tools ('Site'), é dedicado a fornecer a capacidade de criar imagens personalizadas. Ao acessar ou usar nosso Site, você concorda em estar vinculado a estes Termos de Serviço ('Termos'). Se você não concorda com alguma parte dos termos, então está proibido de usar o Site.",
       "2-h2": "1. Licença de Uso",
-      "2-p": "Você recebe uma licença limitada, não exclusiva e intransferível para usar o Website e seus serviços para fins pessoais e não comerciais. Esta licença não inclui quaisquer direitos de copiar, modificar ou distribuir o conteúdo do Website ou usá-lo para fins comerciais sem nosso consentimento prévio por escrito.",
+      "2-p": "É concedida uma licença limitada, não exclusiva e intransferível para usar o Site e seus serviços para fins pessoais e não comerciais. Esta licença não inclui quaisquer direitos para copiar, modificar ou distribuir o conteúdo do Site ou usá-lo para fins comerciais sem nosso consentimento prévio por escrito.",
       "3-h2": "2. Propriedade",
-      "3-p": "A propriedade das imagens geradas a partir do texto no Website pertence à pessoa que criou a imagem. O Tap4.ai não reivindica nenhuma propriedade sobre imagens criadas pelos usuários.",
+      "3-p": "A propriedade das imagens geradas a partir do texto no Site pertence à pessoa que criou a imagem. MagicBox.Tools.ai não reivindica a propriedade das imagens criadas pelos usuários.",
       "4-h2": "3. Coleta de Dados do Usuário",
-      "4-p": "Coletamos dados pessoais (nome, e-mail e informações de pagamento) e dados não pessoais (cookies da web) para melhorar nossos serviços. O uso desses dados é regido por nossa Política de Privacidade, que pode ser encontrada em",
-      "terms-of-service": "terms-of-service",
+      "4-p": "Coletamos dados pessoais (nome, email e informações de pagamento) e dados não pessoais (cookies da web) para melhorar nossos serviços. O uso desses dados é regido por nossa Política de Privacidade, que pode ser encontrada em",
+      "terms-of-service": "termos de serviço",
       "5-h2": "4. Lei Aplicável",
-      "5-p": "Estes Termos serão regidos e interpretados de acordo com as leis dos Estados Unidos da América, sem levar em consideração seus princípios de conflitos de leis.",
-      "6-h2": "5. Alterações nos Termos",
-      "6-p": "O Diretório de IA do Tap4 reserva-se o direito, a nosso exclusivo critério, de modificar ou substituir estes Termos a qualquer momento. Notificaremos os usuários de quaisquer alterações por e-mail. Seu uso continuado do Website após qualquer alteração nestes Termos constituirá sua aceitação de tais alterações.",
+      "5-p": "Estes Termos serão regidos e interpretados de acordo com as leis dos Estados Unidos da América, sem considerar suas disposições sobre conflitos de leis.",
+      "6-h2": "5. Alterações aos Termos",
+      "6-p": "O Diretório AI MagicBox.Tools reserva-se o direito, a nosso exclusivo critério, de modificar ou substituir estes Termos a qualquer momento. Notificaremos os usuários sobre quaisquer alterações por email. Seu uso contínuo do Site após quaisquer alterações nestes Termos constituirá sua aceitação de tais alterações.",
       "7-h2": "6. Informações de Contato",
-      "7-p": "Se você tiver alguma dúvida sobre estes Termos, entre em contato conosco em contact@6677.ai.",
-      "last-p": "Ao usar o Diretório de IA do Tap4, você indica sua aceitação destes Termos de Serviço."
+      "7-p": "Se você tiver alguma dúvida sobre estes Termos, entre em contato conosco em contact@magicbox.tools.",
+      "last-p": "Ao usar o Diretório AI MagicBox.Tools, você concorda com estes Termos de Serviço."
     }
   },
   "NotFound": {
     "title": "404 Não Encontrado",
-    "goHome": "ir para casa"
+    "goHome": "Ir para a página inicial"
   },
   "Home": {
-    "title": "Tap4 AI - Descubra as melhores ferramentas de IA 2024",
-    "subTitle": "Obtenha suas ferramentas de IA favoritas no Diretório de Ferramentas de IA Tap4. A lista de ferramentas de IA é atualizada diariamente pelo GPT-4o. É grátis enviar aqui para melhorar seu SEO agora.",
-    "ai-navigate": "Lista de Ferramentas de IA",
-    "exploreMore": "Obtenha mais ferramentas de IA",
-    "checkDetail": "Ver Detalhe",
-    "search": "Pesquisar",
-    "result": "Resultado da pesquisa",
+    "title": "Descubra As Melhores Ferramentas e Sites de AI",
+    "subTitle": "Com mais de 10.000 incríveis sites de ferramentas AI e atualizados diariamente pelo ChatGPT!",
+    "ai-navigate": "Lista de Ferramentas AI",
+    "exploreMore": "Obter Mais Ferramentas AI",
+    "checkDetail": "Ver Detalhes",
+    "search": "Buscar",
+    "result": "Resultado da busca",
     "empty": "Nenhum dado disponível"
   },
   "Category": {
@@ -132,54 +134,54 @@
     "empty": "Nenhum dado disponível"
   },
   "Submit": {
-    "title": "Envie sua Ferramenta de IA",
-    "subTitle": "Envie sua Ferramenta de IA e Obtenha tráfego do Diretório de IA do Tap4",
-    "website": "Nome do Website",
-    "url": "URL do Website",
+    "title": "Envie sua Ferramenta AI",
+    "subTitle": "Envie sua Ferramenta AI e obtenha tráfego do Diretório MagicBox.Tools",
+    "website": "Nome do Site",
+    "url": "URL do Site",
     "submit": "Enviar",
     "add": "Adicionar",
-    "text": "para a página inicial do seu site. Em seguida, você pode enviar seu site com sucesso gratuitamente!",
-    "networkError": "Erro de rede",
+    "text": "à página inicial do seu site, e então você pode enviar seu site com sucesso gratuitamente!",
+    "networkError": "Erro de Rede",
     "success": "sucesso"
   },
   "Startup": {
-    "title": "Inicie o Lançamento da sua Startup",
-    "subTitle": "A Lista Definitiva de Sites para Lançar e Promover Sua Startup Online. Para adicionar à lista ou ajudar a enviar seu produto para a lista gratuita, por favor, envie um e-mail para nós: contact@tap4.ai.",
-    "updateTime": "Selecionado e atualizado diariamente. Última atualização:",
+    "title": "Lance Seu Startup",
+    "subTitle": "A Lista Definitiva de Sites para Lançar e Promover Seu Startup Online. Para adicionar à lista ou ajudar a enviar seu produto para a lista gratuita, por favor, envie-nos um email: contact@magicbox.tools",
+    "updateTime": "Organizado e atualizado diariamente. Última atualização:",
     "table": {
       "da": "DA",
-      "website": "Website",
+      "website": "Site",
       "tags": "Tags",
       "price": "Preço",
       "submission": "Envio"
     },
     "detail": {
-      "visitWebsite": "Visite o Website",
+      "visitWebsite": "Visitar Site",
       "introduction": "Introdução"
     }
   },
   "Explore": {
-    "title": "Descubra as Melhores Ferramentas de IA 2024",
-    "subTitle": "Obtenha suas ferramentas de IA favoritas no Diretório de Ferramentas de IA do Tap4. A lista de ferramentas de IA é atualizada diariamente pelo GPT-4o."
+    "title": "Descubra As Melhores Ferramentas e Sites de AI",
+    "subTitle": "Com mais de 10.000 incríveis sites de ferramentas AI e atualizados diariamente pelo ChatGPT!"
   },
   "Metadata": {
     "home": {
-      "title": "Obtenha suas melhores Ferramentas de IA | Diretório de IA do Tap4",
-      "description": "O Diretório de IA do Tap4 é uma ferramenta que fornece um Diretório de Ferramentas de IA gratuito. Obtenha suas ferramentas de IA favoritas com o Diretório de IA do Tap4, o Diretório de IA do Tap4 visa reunir todas as ferramentas de IA e fornecer o melhor para os usuários.",
-      "keywords": "Diretório de IA do Tap4"
+      "title": "Encontre suas melhores Ferramentas AI | Diretório de Ferramentas AI Magicbox.Tools open-source",
+      "description": "O Diretório de Ferramentas AI Magicbox.Tools é uma ferramenta que fornece um diretório de ferramentas AI gratuito. Encontre suas ferramentas AI favoritas com o Diretório de Ferramentas AI Magicbox.Tools, o Diretório de Ferramentas AI Magicbox.Tools visa coletar todas as ferramentas AI e fornecer as melhores aos usuários.",
+      "keywords": "Diretório de Ferramentas AI Magicbox.Tools"
     },
     "ai": {
-      "titleSubfix": "Diretório de IA do Tap4"
+      "titleSubfix": "Diretório de Ferramentas AI Magicbox.Tools"
     },
     "explore": {
-      "title": "Melhores Ferramentas de IA Explore 2024 | Diretório de IA do Tap4",
-      "titlePrefix": "Explorar Diretório de IA do Tap4",
-      "titleSuffix": "Diretório de IA do Tap4",
-      "description": "O Diretório de IA do Tap4 é uma ferramenta que fornece um Diretório de Ferramentas de IA gratuito. Obtenha suas ferramentas de IA favoritas com o Diretório de IA do Tap4, o Diretório de IA do Tap4 visa reunir todas as ferramentas de IA e fornecer o melhor para os usuários.",
-      "keywords": "Diretório de IA do Tap4"
+      "title": "Explore as Melhores Ferramentas AI 2024 | Diretório de Ferramentas AI Magicbox.Tools open-source",
+      "titlePrefix": "Explore o Diretório de Ferramentas AI Magicbox.Tools",
+      "titleSuffix": "Diretório de Ferramentas AI Magicbox.Tools",
+      "description": "O Diretório de Ferramentas AI Magicbox.Tools é uma ferramenta que fornece um diretório de ferramentas AI gratuito. Encontre suas ferramentas AI favoritas com o Diretório de Ferramentas AI Magicbox.Tools, o Diretório de Ferramentas AI Magicbox.Tools visa coletar todas as ferramentas AI e fornecer as melhores aos usuários.",
+      "keywords": "Diretório de Ferramentas AI Magicbox.Tools"
     },
     "submit": {
-      "title": "Envie sua ferramenta de IA e obtenha Tráfego | Diretório de IA do Tap4"
+      "title": "Envie sua ferramenta AI e obtenha tráfego | Diretório Magicbox.Tools"
     }
   }
 }
