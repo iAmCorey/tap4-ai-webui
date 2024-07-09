@@ -33,7 +33,7 @@ export default function WebNavCard({ name, thumbnail_url, title, url, content, t
         </a>
       </div>
       <p className='mb-1 line-clamp-3 h-1/2 px-[6px] text-xs  text-gray-500 lg:mb-1 lg:text-sm'>{content}</p>
-      <div className='ml-1 flex h-[30px] w-[70px] items-center justify-center gap-[2px] whitespace-nowrap rounded-xl border border-orange-200 bg-orange-50 px-3 text-xs shadow-sm hover:border-orange-300 hover:bg-orange-400 hover:text-white'>
+      <div className='ml-1 flex h-fit w-fit items-center justify-center gap-[2px] whitespace-nowrap rounded-xl border border-orange-200 bg-orange-50 px-3 text-xs shadow-sm hover:border-orange-300 hover:bg-orange-400 hover:text-white'>
         <p className='bottom-1 text-sm'>{tag_name}</p>
       </div>
     </div>

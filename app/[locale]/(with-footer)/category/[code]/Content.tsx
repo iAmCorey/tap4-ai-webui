@@ -46,7 +46,7 @@ export default function Content({
       <div className='mt-3'>
         {navigationList && !!navigationList?.length ? (
           <>
-            <div className='grid grid-cols-2 gap-3 lg:grid-cols-4 lg:gap-4'>
+            <div className='grid grid-cols-2 gap-6 lg:grid-cols-4 lg:gap-8'>
               {navigationList.map((item) => (
                 <WebNavCard key={item.id} {...item} />
               ))}

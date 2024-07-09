@@ -44,14 +44,14 @@ export default async function Page({ params: { websiteName } }: { params: { webs
       <div className='flex flex-col px-6 py-5 lg:h-[323px] lg:flex-row lg:justify-between lg:px-0 lg:py-10'>
         <div className='flex flex-col items-center lg:items-start'>
           <div className='space-y-1 text-balance lg:space-y-3'>
-            <h1 className='text-2xl lg:text-5xl'>{data.title}</h1>
-            <h2 className='text-xs lg:text-sm'>{data.content}</h2>
+            <h1 className='text-2xl font-bold text-gray-700 lg:text-5xl'>{data.title}</h1>
+            <h2 className='text-xs text-slate-600 lg:text-sm'>{data.content}</h2>
           </div>
           <a
             href={data.url}
             target='_blank'
             rel='noreferrer'
-            className='flex-center mt-5 min-h-5 w-full gap-1 rounded-[8px] bg-white p-[10px] text-sm capitalize text-black hover:opacity-80 lg:mt-auto lg:w-[288px]'
+            className='flex-center mt-5 min-h-5 w-full gap-1 rounded-[8px] bg-orange-400 p-[10px] text-sm font-semibold capitalize text-white hover:opacity-80 lg:mt-auto lg:w-[288px]'
           >
             {t('visitWebsite')} <CircleArrowRight className='size-[14px]' />
           </a>
@@ -78,8 +78,8 @@ export default async function Page({ params: { websiteName } }: { params: { webs
       </div>
       <Separator className='bg-[#010101]' />
       <div className='mb-5 px-3 lg:px-0'>
-        <h2 className='my-5 text-2xl text-white/40 lg:my-10'>{t('introduction')}</h2>
-        <MarkdownProse markdown={data?.detail || ''} />
+        <h2 className='my-5 text-2xl font-bold text-gray-700 lg:my-10'>{t('introduction')}</h2>
+        <MarkdownProse markdown={data?.detail || ''} className='text-gray-700 ' />
       </div>
     </div>
   );

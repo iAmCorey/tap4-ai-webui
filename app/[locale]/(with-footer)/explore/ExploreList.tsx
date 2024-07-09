@@ -27,7 +27,7 @@ export default async function ExploreList({ pageNum }: { pageNum?: string }) {
 
   return (
     <>
-      <div className='flex w-full items-center justify-center'>
+      <div className='mb-4 flex w-full items-center justify-center'>
         <SearchForm />
       </div>
       <div className='mb-10 mt-5'>

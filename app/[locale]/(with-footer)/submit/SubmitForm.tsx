@@ -61,7 +61,7 @@ export default function SubmitForm({ className }: { className?: string }) {
       <form
         onSubmit={form.handleSubmit(onSubmit)}
         className={cn(
-          'mx-3 mb-5 flex h-[449px] flex-col justify-between rounded-[12px] bg-[#2C2D36] px-3 py-5 lg:h-[557px] lg:w-[444px] lg:p-8',
+          'mx-3 mb-5 flex h-[449px] flex-col justify-between rounded-[12px]  px-3 py-5 lg:h-[557px] lg:w-[444px] lg:p-8',
           className,
         )}
       >
@@ -74,8 +74,8 @@ export default function SubmitForm({ className }: { className?: string }) {
                 <FormLabel>{t('website')}</FormLabel>
                 <FormControl>
                   <Input
-                    placeholder='Tap4 AI'
-                    className='input-border-pink h-[42px] w-full rounded-[8px] border-[0.5px] bg-dark-bg p-5'
+                    placeholder='e.g. MagicBox.Tools'
+                    className='input-border-pink bg-dark-bg h-[42px] w-full rounded-[8px] border-[0.5px] p-5'
                     {...field}
                   />
                 </FormControl>
@@ -92,7 +92,7 @@ export default function SubmitForm({ className }: { className?: string }) {
                 <FormControl>
                   <Input
                     placeholder={FORM_PLACEHOLDER}
-                    className='input-border-pink h-[42px] w-full rounded-[8px] border-[0.5px] bg-dark-bg p-5'
+                    className='input-border-pink bg-dark-bg h-[42px] w-full rounded-[8px] border-[0.5px] p-5'
                     {...field}
                   />
                 </FormControl>
@@ -106,14 +106,14 @@ export default function SubmitForm({ className }: { className?: string }) {
             type='submit'
             disabled={loading}
             className={cn(
-              'flex-center mt-auto h-[48px] w-full gap-4 rounded-[8px] bg-white text-center font-bold text-black hover:cursor-pointer hover:opacity-80',
+              'flex-center mt-auto h-[48px] w-full gap-4 rounded-lg border border-orange-400 bg-white text-center font-bold text-black hover:cursor-pointer hover:bg-orange-400 hover:text-white hover:opacity-80',
               loading && 'hover:cursor-not-allowed',
             )}
           >
             {loading ? <Spinning className='size-[22px]' /> : t('submit')}
           </button>
-          <p className='text-[13px] text-white/40'>
-            {t('add')} <span className='text-white'>{WEBSITE_EXAMPLE}</span> {t('text')}
+          <p className='text-[13px] text-black'>
+            {t('add')} <span className='font-bold text-black underline'>{WEBSITE_EXAMPLE}</span> {t('text')}
           </p>
         </div>
       </form>

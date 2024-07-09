@@ -21,10 +21,10 @@ export const RevalidateOneMonth = 3600 * 24 * 30;
 export const PAGE_SIZE = 20;
 export const InfoPageSize = 12;
 
-export const FORM_PLACEHOLDER = 'https://tap4.ai/';
+export const FORM_PLACEHOLDER = 'e.g. https://magicbox.tools/';
 
 export const WEBSITE_EXAMPLE =
-  '<a href="https://tap4.ai/" title="Tap4 AI Tools Directory">Tap4 AI Tools Diresctory</a>';
+  '<a href="https://magicbox.tools/" title="MagicBox.Tools - AI Tools Directory">MagicBox.Tools - AI Tools Diresctory</a>';
 
 export const STARTUP_LIST = [
   {
