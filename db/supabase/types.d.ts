@@ -64,6 +64,42 @@ export type Database = {
         };
         Relationships: [];
       };
+      submit_site: {
+        Row: {
+          submit_time: string;
+          submit_by: string;
+          email: string | null;
+          id: number;
+          is_feature: number | null;
+          priority: number | null;
+          name: string | null;
+          status: number | null;
+          url: string | null;
+        };
+        Insert: {
+          submit_time?: string;
+          submit_by?: string;
+          email?: string | null;
+          id?: number;
+          is_feature?: number | null;
+          priority?: number | null;
+          name?: string | null;
+          status?: number | null;
+          url?: string | null;
+        };
+        Update: {
+          submit_time?: string;
+          submit_by?: string;
+          email?: string | null;
+          id?: number;
+          is_feature?: number | null;
+          priority?: number | null;
+          name?: string | null;
+          status?: number | null;
+          url?: string | null;
+        };
+        Relationships: [];
+      };
       web_navigation: {
         Row: {
           category_name: string;
@@ -194,7 +230,8 @@ export type Database = {
 };
 
 export type NavigationCategory = Database['public']['Tables']['navigation_category']['Row'];
-export type Submit = Database['public']['Tables']['submit']['Row'];
+// export type Submit = Database['public']['Tables']['submit']['Row'];
+export type Submit = Database['public']['Tables']['submit_site']['Row'];
 // export type WebNavigation = Database['public']['Tables']['web_navigation']['Row'];
 export type WebNavigation = Database['public']['Tables']['mb_site']['Row'];
 

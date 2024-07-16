@@ -31,7 +31,7 @@ export async function generateMetadata({
 
   return {
     title: `${data[0].title} | ${t('titleSubfix')}`,
-    description: data[0].content,
+    description: data[0].description,
   };
 }
 
