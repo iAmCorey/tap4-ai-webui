@@ -38,11 +38,15 @@ export default function SubmitForm({ className }: { className?: string }) {
     let errMsg: any = t('networkError');
     try {
       setLoading(true);
-      const { error } = await supabase.from('submit').insert({
-        name: formData.website,
-        url: formData.url,
-        // email: ''
-      });
+      const { error } = await supabase
+        // .from('submit')
+        .from('submit_site')
+        .insert({
+          name: formData.website,
+          url: formData.url,
+          status: 0,
+          // email: ''
+        });
       if (error) {
         errMsg = error.message;
         throw new Error();

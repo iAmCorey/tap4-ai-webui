@@ -19,9 +19,12 @@ export default async function ExploreList({ pageNum }: { pageNum?: string }) {
   const [{ data: categoryList }, { data: navigationList, count }] = await Promise.all([
     supabase.from('navigation_category').select(),
     supabase
-      .from('web_navigation')
+      // .from('web_navigation')
+      .from('mb_site')
       .select('*', { count: 'exact' })
-      .order('collection_time', { ascending: false })
+      .eq('status', 1)
+      // .order('collection_time', { ascending: false })
+      .order('create_time', { ascending: false })
       .range(start, end),
   ]);
 

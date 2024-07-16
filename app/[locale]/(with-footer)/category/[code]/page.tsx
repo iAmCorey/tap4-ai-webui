@@ -28,8 +28,10 @@ export default async function Page({ params }: { params: { code: string } }) {
   const [{ data: categoryList }, { data: navigationList, count }] = await Promise.all([
     supabase.from('navigation_category').select().eq('name', params.code),
     supabase
-      .from('web_navigation')
+      // .from('web_navigation')
+      .from('mb_site')
       .select('*', { count: 'exact' })
+      .eq('status', 1)
       .eq('category_name', params.code)
       .range(0, InfoPageSize - 1),
   ]);

@@ -31,7 +31,7 @@ export default function Navigation() {
           <div className='flex w-full items-center justify-around lg:w-auto'>
             <a href='/' className='text-lg'>
               <span className='font-bold text-orange-400'>MagicBox</span>
-              <span className=''>.Tools</span>
+              <span className='font-bold'>.Tools</span>
             </a>
             <div className='block lg:hidden'>{/* <MenuIcon className="w-4 h-4 text-gray-800" /> */}</div>
           </div>
@@ -49,7 +49,7 @@ export default function Navigation() {
           </div> */}
           {/* pc */}
           <div className='ml-auto flex h-full items-center gap-x-[46px]'>
-            <ul className='hidden h-full flex-1 capitalize lg:flex lg:gap-x-12'>
+            <ul className='hidden h-full flex-1 font-semibold capitalize lg:flex lg:gap-x-12'>
               {NavLinks.map((item) => (
                 <Link key={item.code} href={item.href} title={item.code}>
                   <li

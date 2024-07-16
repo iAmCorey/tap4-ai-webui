@@ -57,7 +57,7 @@ export default function Footer() {
     <footer className='w-full bg-white'>
       <div className='mx-auto flex min-h-[251px] max-w-pc flex-col items-center justify-between p-10 pb-5 lg:h-[180px] lg:flex-row lg:px-0 lg:pb-10'>
         <div className='flex flex-col items-center lg:items-stretch'>
-          <h1 className='mb-1 text-xl font-bold text-black lg:h-8 lg:text-[32px]'>{t('title')}</h1>
+          <h1 className='mb-1 text-xl font-bold text-orange-400 lg:h-8 lg:text-[32px]'>{t('title')}</h1>
           <h2 className='mb-4 text-sm font-semibold'>{t('subTitle')}</h2>
           <h2 className='text-xs'>{t('description')}</h2>
         </div>

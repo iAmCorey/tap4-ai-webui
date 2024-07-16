@@ -5,14 +5,21 @@ import { WebNavigation } from '@/db/supabase/types';
 import { CircleArrowRight, SquareArrowOutUpRight } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 
-export default function WebNavCard({ name, thumbnail_url, title, url, content, tag_name }: WebNavigation) {
+export default function WebNavCard({
+  name,
+  screenshot_thumbnail_data,
+  title,
+  url,
+  description,
+  category_name,
+}: WebNavigation) {
   const t = useTranslations('Home');
 
   return (
     <div className='flex h-[210px] flex-col gap-3 rounded-2xl bg-white p-6 shadow-sm lg:h-[343px]'>
       <Link href={`/ai/${name}`} title={title} className='group relative'>
         <img
-          src={thumbnail_url || ''}
+          src={screenshot_thumbnail_data || ''}
           alt={title}
           title={title}
           width={310}
@@ -32,9 +39,9 @@ export default function WebNavCard({ name, thumbnail_url, title, url, content, t
           <span className='sr-only'>{title}</span>
         </a>
       </div>
-      <p className='mb-1 line-clamp-3 h-1/2 px-[6px] text-xs  text-gray-500 lg:mb-1 lg:text-sm'>{content}</p>
+      <p className='mb-1 line-clamp-3 h-1/2 px-[6px] text-xs  text-gray-500 lg:mb-1 lg:text-sm'>{description}</p>
       <div className='ml-1 flex h-fit w-fit items-center justify-center gap-[2px] whitespace-nowrap rounded-xl border border-orange-200 bg-orange-50 px-3 text-xs shadow-sm hover:border-orange-300 hover:bg-orange-400 hover:text-white'>
-        <p className='bottom-1 text-sm'>{tag_name}</p>
+        <p className='bottom-1 text-sm'>{category_name}</p>
       </div>
     </div>
   );

@@ -18,7 +18,12 @@ export async function generateMetadata({
     locale,
     namespace: 'Metadata.ai',
   });
-  const { data } = await supabase.from('web_navigation').select().eq('name', websiteName);
+  const { data } = await supabase
+    // .from('web_navigation')
+    .from('mb_site')
+    .select()
+    .eq('status', 1)
+    .eq('name', websiteName);
 
   if (!data || !data[0]) {
     notFound();
@@ -33,7 +38,12 @@ export async function generateMetadata({
 export default async function Page({ params: { websiteName } }: { params: { websiteName: string } }) {
   const supabase = createClient();
   const t = await getTranslations('Startup.detail');
-  const { data: dataList } = await supabase.from('web_navigation').select().eq('name', websiteName);
+  const { data: dataList } = await supabase
+    // .from('web_navigation')
+    .from('mb_site')
+    .select()
+    .eq('status', 1)
+    .eq('name', websiteName);
   if (!dataList) {
     notFound();
   }
@@ -45,7 +55,7 @@ export default async function Page({ params: { websiteName } }: { params: { webs
         <div className='flex flex-col items-center lg:items-start'>
           <div className='space-y-1 text-balance lg:space-y-3'>
             <h1 className='text-2xl font-bold text-gray-700 lg:text-5xl'>{data.title}</h1>
-            <h2 className='text-xs text-slate-600 lg:text-sm'>{data.content}</h2>
+            <h2 className='text-xs text-slate-600 lg:text-sm'>{data.description}</h2>
           </div>
           <a
             href={data.url}
@@ -68,7 +78,7 @@ export default async function Page({ params: { websiteName } }: { params: { webs
             // width={466}
             // height={243}
             fill
-            src={data.thumbnail_url || ''}
+            src={data.screenshot_thumbnail_data || ''}
             className='absolute mt-3 aspect-[466/234] w-full rounded-[16px] border border-[#424242] bg-[#424242] bg-cover lg:mt-0'
           />
           <div className='absolute inset-0 z-10 hidden items-center justify-center gap-1 rounded-[16px] bg-black bg-opacity-50 text-2xl text-white transition-all duration-200 group-hover:flex'>

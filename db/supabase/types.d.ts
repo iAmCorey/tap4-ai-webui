@@ -112,6 +112,71 @@ export type Database = {
         };
         Relationships: [];
       };
+      mb_site: {
+        Row: {
+          category_name: string;
+          create_time: string;
+          description: string;
+          detail: string;
+          id: number;
+          screenshot_data: string;
+          name: string;
+          tag_name: string;
+          screenshot_thumbnail_data: string;
+          title: string;
+          url: string;
+          website_data: string;
+          rating: number;
+          click_count: number;
+          like_count: number;
+          fav_count: number;
+          status: number;
+          priority: number;
+        };
+        Insert: {
+          category_name?: string | null;
+          create_time?: string | null;
+          description?: string | null;
+          detail?: string | null;
+          id?: number;
+          screenshot_data?: string | null;
+          name: string;
+          rating?: number | null;
+          tag_name?: string | null;
+          screenshot_thumbnail_data?: string | null;
+          title?: string | null;
+          url?: string | null;
+          website_data?: string | null;
+          rating?: number | null;
+          click_count?: number | null;
+          like_count?: number | null;
+          fav_count?: number | null;
+          status?: number | null;
+          priority?: number | null;
+        };
+        Update: {
+          category_name?: string | null;
+          create_time?: string | null;
+          description?: string | null;
+          detail?: string | null;
+          id?: number;
+          screenshot_data?: string | null;
+          name?: string;
+          star_rating?: number | null;
+          tag_name?: string | null;
+          screenshot_thumbnail_data?: string | null;
+          title?: string | null;
+          url?: string | null;
+          website_data?: string | null;
+          rating?: number | null;
+          click_count?: number | null;
+          like_count?: number | null;
+          fav_count?: number | null;
+          status?: number | null;
+          priority?: number | null;
+        };
+        Relationships: [];
+      };
     };
     Views: {
       [_ in never]: never;
@@ -130,7 +195,8 @@ export type Database = {
 
 export type NavigationCategory = Database['public']['Tables']['navigation_category']['Row'];
 export type Submit = Database['public']['Tables']['submit']['Row'];
-export type WebNavigation = Database['public']['Tables']['web_navigation']['Row'];
+// export type WebNavigation = Database['public']['Tables']['web_navigation']['Row'];
+export type WebNavigation = Database['public']['Tables']['mb_site']['Row'];
 
 type PublicSchema = Database[Extract<keyof Database, 'public'>];
 

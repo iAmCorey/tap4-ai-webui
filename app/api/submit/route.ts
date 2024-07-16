@@ -42,7 +42,8 @@ export async function POST(req: NextRequest) {
 
     // 检查 URL 是否已存在
     const { data: existingEntry, error: existingEntryError } = await supabase
-      .from('web_navigation')
+      // .from('web_navigation')
+      .from('mb_site')
       .select()
       .eq('url', url)
       .single();
