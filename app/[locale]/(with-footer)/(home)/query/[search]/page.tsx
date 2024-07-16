@@ -39,7 +39,7 @@ export default async function Page({ params }: { params: { search?: string } }) 
     .from('mb_site')
     .select()
     .eq('status', 1)
-    .ilike('detail', `%${decodeURI(params?.search || '')}%`);
+    .ilike('title', `%${decodeURI(params?.search || '')}%`);
 
   return (
     <Suspense fallback={<Loading />}>
