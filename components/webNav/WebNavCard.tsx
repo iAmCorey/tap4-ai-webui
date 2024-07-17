@@ -11,7 +11,7 @@ export default function WebNavCard({
   title,
   url,
   description,
-  category_name,
+  tags_list,
 }: WebNavigation) {
   const t = useTranslations('Home');
 
@@ -40,8 +40,16 @@ export default function WebNavCard({
         </a>
       </div>
       <p className='mb-1 line-clamp-3 h-1/2 px-[6px] text-xs  text-gray-500 lg:mb-1 lg:text-sm'>{description}</p>
-      <div className='ml-1 flex h-fit w-fit items-center justify-center gap-[2px] whitespace-nowrap rounded-xl border border-orange-200 bg-orange-50 px-3 text-xs shadow-sm hover:border-orange-300 hover:bg-orange-400 hover:text-white'>
-        <p className='bottom-1 text-sm'>{category_name}</p>
+      <div className='flex h-fit w-fit items-center justify-center gap-[2px] whitespace-nowrap  text-xs '>
+        {tags_list.slice(0, 2).map((item) => (
+          <p
+            className='bottom-1 mx-1 rounded-xl border border-orange-200 bg-orange-50  px-2 text-sm shadow-sm hover:border-orange-300 hover:bg-orange-400 hover:text-white'
+            key={item}
+          >
+            {item}
+          </p>
+          // <Link className='bottom-1 text-sm rounded-xl border border-orange-200 shadow-sm  px-2 mx-1 bg-orange-50 hover:border-orange-300 hover:bg-orange-400 hover:text-white' key={item} href={`/category/${item}`}>{item}</Link>
+        ))}
       </div>
     </div>
   );

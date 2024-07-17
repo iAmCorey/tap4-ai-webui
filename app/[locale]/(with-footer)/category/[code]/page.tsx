@@ -32,7 +32,8 @@ export default async function Page({ params }: { params: { code: string } }) {
       .from('mb_site')
       .select('*', { count: 'exact' })
       .eq('status', 1)
-      .eq('category_name', params.code)
+      .contains('tags_list', [params.code])
+      // .eq('category_name', params.code)
       .range(0, InfoPageSize - 1),
   ]);
 

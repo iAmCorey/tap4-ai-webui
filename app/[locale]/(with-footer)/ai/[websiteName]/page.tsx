@@ -51,10 +51,20 @@ export default async function Page({ params: { websiteName } }: { params: { webs
 
   return (
     <div className='w-full'>
-      <div className='flex flex-col px-6 py-5 lg:h-[323px] lg:flex-row lg:justify-between lg:px-0 lg:py-10'>
+      <div className='flex flex-col px-6 py-5 lg:h-[403px] lg:flex-row lg:justify-between lg:px-0 lg:py-10'>
         <div className='flex flex-col items-center lg:items-start'>
           <div className='space-y-1 text-balance lg:space-y-3'>
             <h1 className='text-2xl font-bold text-gray-700 lg:text-5xl'>{data.title}</h1>
+            <div className='flex h-fit w-fit items-center justify-center gap-[2px] whitespace-nowrap pb-5 '>
+              {data.tags_list.map((item) => (
+                <p
+                  className='bottom-1 mx-1 w-fit rounded-xl border border-orange-200 bg-orange-50  px-2 py-1 text-sm shadow-sm hover:border-orange-300 hover:bg-orange-400 hover:text-white'
+                  key={item}
+                >
+                  {item}
+                </p>
+              ))}
+            </div>
             <h2 className='text-xs text-slate-600 lg:text-sm'>{data.description}</h2>
           </div>
           <a
@@ -70,7 +80,7 @@ export default async function Page({ params: { websiteName } }: { params: { webs
           href={data.url}
           target='_blank'
           rel='noreferrer'
-          className='flex-center group relative h-[171px] w-full flex-shrink-0 lg:h-[234px] lg:w-[466px]'
+          className='flex-center group relative mt-5 h-[171px] w-full flex-shrink-0 lg:h-[254px] lg:w-[466px]'
         >
           <BaseImage
             title={data.title}

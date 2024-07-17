@@ -157,7 +157,7 @@ export type Database = {
           id: number;
           screenshot_data: string;
           name: string;
-          tag_name: string;
+          tags: string;
           screenshot_thumbnail_data: string;
           title: string;
           url: string;
@@ -168,6 +168,7 @@ export type Database = {
           fav_count: number;
           status: number;
           priority: number;
+          tags_list: string[];
         };
         Insert: {
           category_name?: string | null;
@@ -178,7 +179,8 @@ export type Database = {
           screenshot_data?: string | null;
           name: string;
           rating?: number | null;
-          tag_name?: string | null;
+          tags?: string | null;
+          tags_list?: string[] | null;
           screenshot_thumbnail_data?: string | null;
           title?: string | null;
           url?: string | null;
@@ -199,7 +201,8 @@ export type Database = {
           screenshot_data?: string | null;
           name?: string;
           star_rating?: number | null;
-          tag_name?: string | null;
+          tags?: string | null;
+          tags_list?: string[] | null;
           screenshot_thumbnail_data?: string | null;
           title?: string | null;
           url?: string | null;
