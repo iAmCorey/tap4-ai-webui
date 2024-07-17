@@ -53,6 +53,18 @@ export default function SeoScript() {
           }
         }}
       />
+      <Script
+        src='https://plausible.zeabur.app/js/script.js'
+        strategy='afterInteractive'
+        data-domain={PLAUSIBLE_DOMAIN}
+        onLoad={() => {
+          const script = document.querySelector(`link[href="${plausibleScriptUrl}"]`);
+          // console.log(script);
+          if (script && plausibleDomain) {
+            script.setAttribute('data-domain', plausibleDomain);
+          }
+        }}
+      />
     </>
   );
 }
