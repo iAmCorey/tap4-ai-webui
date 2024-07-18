@@ -158,8 +158,10 @@
       "submission": "Submission"
     },
     "detail": {
+      "home": "Home",
       "visitWebsite": "Visit Website",
-      "introduction": "Introduction"
+      "introduction": "Introduction",
+      "added-on": "Added On"
     }
   },
   "Explore": {
