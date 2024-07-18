@@ -16,7 +16,7 @@ export default function WebNavCard({
   const t = useTranslations('Home');
 
   return (
-    <div className='mx-2 flex h-[360px] flex-col gap-3 rounded-2xl bg-white p-6 shadow-sm lg:mx-auto lg:h-[343px]'>
+    <div className='mx-2 flex h-[361px] flex-col gap-3 rounded-2xl bg-white p-6 shadow-sm lg:mx-auto lg:h-[343px]'>
       <Link href={`/ai/${name}`} title={title} className='group relative'>
         <img
           src={screenshot_thumbnail_data || ''}
