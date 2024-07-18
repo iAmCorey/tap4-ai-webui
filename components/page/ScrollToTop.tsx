@@ -33,7 +33,7 @@ export default function ScrollToTop() {
         <button
           type='button'
           onClick={scrollToTop}
-          className='fixed bottom-52 right-10 hidden items-center justify-center rounded-full bg-gray-400  p-2 text-white hover:bg-orange-400 hover:opacity-70 lg:flex'
+          className='fixed bottom-32 right-10 hidden items-center justify-center rounded-full bg-gray-400  p-2 text-white hover:bg-orange-400 hover:opacity-70 lg:flex'
         >
           <ArrowUp />
           <span className='sr-only'>Go to Top</span>
