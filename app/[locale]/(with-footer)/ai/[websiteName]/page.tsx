@@ -35,7 +35,6 @@ export async function generateMetadata({
     description: data[0].description,
   };
 }
-
 export default async function Page({ params: { websiteName } }: { params: { websiteName: string } }) {
   const supabase = createClient();
   const t = await getTranslations('Startup.detail');
@@ -61,7 +60,6 @@ export default async function Page({ params: { websiteName } }: { params: { webs
   };
 
   const formattedDate = formatDate(data.create_time);
-
   return (
     <div className='w-full'>
       <div className='flex flex-col px-6 py-5 lg:h-[433px] lg:flex-row lg:justify-between lg:px-0 lg:py-10'>
