@@ -51,14 +51,16 @@ export default async function Page() {
   return (
     <div className='relative w-full'>
       <div className='relative mx-auto w-full max-w-pc flex-1 px-3 lg:px-0'>
-        <div className='mt-10 flex w-fit flex-col rounded-xl border border-gray-300 px-3 py-1 text-center text-sm lg:mx-auto lg:gap-1'>
-          <p>
-            🔥&nbsp;&nbsp;<span className='font-semibold'>12</span> {t('newly-add')}
-          </p>
+        <div className='flex w-full items-center justify-center '>
+          <div className='mt-5 w-fit rounded-xl border border-gray-300 px-3 py-1 text-center text-sm lg:mx-auto lg:mt-10'>
+            <p>
+              🔥&nbsp;&nbsp;<span className='font-semibold'>12</span> {t('newly-add')}
+            </p>
+          </div>
         </div>
         <div className='mb-5 flex flex-col text-center lg:mx-auto lg:mb-10 lg:gap-1'>
-          <h1 className='pb-4 pt-4 text-5xl font-bold text-black lg:text-5xl'>{t('title')}</h1>
-          <h2 className='text-ray-800 text-balance text-lg lg:text-lg'>{t('subTitle')}</h2>
+          <h1 className='pb-4 pt-4 text-3xl font-bold text-black lg:text-5xl'>{t('title')}</h1>
+          <h2 className='text-ray-800 text-balance text-sm lg:text-lg'>{t('subTitle')}</h2>
         </div>
         <div className='flex w-full items-center justify-center pb-10 pt-6'>
           <SearchForm />
@@ -78,7 +80,7 @@ export default async function Page() {
           <WebNavCardList dataList={navigationList!} />
           <Link
             href='/explore'
-            className='mx-auto mb-10 mt-5 flex w-fit items-center justify-center gap-5 rounded-[9px] border border-gray-600 p-[10px] text-sm leading-4 hover:border-white hover:bg-orange-400 hover:text-white hover:opacity-70'
+            className='mx-auto mb-10 mt-5 flex w-fit items-center justify-center gap-2 rounded-[9px] border border-gray-400 p-[10px] text-sm leading-4 text-gray-500 hover:border-white hover:bg-orange-400 hover:text-white hover:opacity-70'
           >
             {t('exploreMore')}
             <CircleChevronRight className='mt-[0.5] h-[20px] w-[20px]' />
