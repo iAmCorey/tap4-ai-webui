@@ -33,7 +33,7 @@ export default async function ExploreList({ pageNum }: { pageNum?: string }) {
       <div className='mb-4 flex w-full items-center justify-center'>
         <SearchForm />
       </div>
-      <div className='mx-auto mb-10 mt-5 w-full px-3 lg:px-0'>
+      <div className='mx-auto mb-10 mt-5 w-full px-3 lg:px-0 '>
         <TagList
           data={categoryList!.map((item) => ({
             id: String(item.id),
