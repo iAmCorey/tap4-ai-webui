@@ -43,7 +43,7 @@ export default function WebNavCard({
       <div className='flex h-fit w-fit items-center justify-center gap-[2px] whitespace-nowrap  text-xs '>
         {tags_list.slice(0, 2).map((item) => (
           <p
-            className='bottom-1 mx-1 rounded-xl border border-orange-200 bg-orange-50  px-2 text-sm shadow-sm hover:border-orange-300 hover:bg-orange-400 hover:text-white'
+            className='bottom-1 mx-1 rounded-md border border-orange-200 bg-orange-50  px-2 text-sm shadow-sm hover:border-orange-300 hover:bg-orange-400 hover:text-white'
             key={item}
           >
             {item}

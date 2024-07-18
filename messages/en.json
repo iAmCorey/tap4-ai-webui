@@ -4,7 +4,7 @@
   },
   "Navigation": {
     "title": "Magicbox.Tools - Top AI Tools Navigator",
-    "discover": "Discover AI",
+    "discover": "Explore",
     "submit": "Submit",
     "newtools": "New Tools",
     "startup": "Startup",
@@ -127,7 +127,9 @@
     "checkDetail": "View Detail",
     "search": "Search",
     "result": "Search Result",
-    "empty": "No data available"
+    "empty": "No data available",
+    "newly-add": "new awesome AI tools added this week",
+    "section-new": "Recently Added"
   },
   "Category": {
     "home": "home",

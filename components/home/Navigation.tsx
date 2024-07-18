@@ -49,14 +49,14 @@ export default function Navigation() {
           </div> */}
           {/* pc */}
           <div className='ml-auto flex h-full items-center gap-x-[46px]'>
-            <ul className='hidden h-full flex-1 font-semibold capitalize lg:flex lg:gap-x-12'>
+            <ul className='hidden h-full flex-1 font-normal capitalize lg:flex lg:gap-x-12'>
               {NavLinks.map((item) => (
                 <Link key={item.code} href={item.href} title={item.code}>
                   <li
                     className={cn(
-                      'flex h-full items-center text-black hover:text-orange-400',
-                      pathname === item.href && 'text-black',
-                      pathname.includes(item.href) && item.href !== '/' && 'text-black',
+                      'flex h-full items-center text-black hover:text-orange-500',
+                      pathname === item.href && 'text-orange-500',
+                      pathname.includes(item.href) && item.href !== '/' && 'text-orange-500',
                     )}
                   >
                     {item.label}
