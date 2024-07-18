@@ -16,7 +16,7 @@ export default function WebNavCard({
   const t = useTranslations('Home');
 
   return (
-    <div className='flex h-[210px] flex-col gap-3 rounded-2xl bg-white p-6 shadow-sm lg:h-[343px]'>
+    <div className='mx-2 flex h-[360px] flex-col gap-3 rounded-2xl bg-white p-6 shadow-sm lg:mx-auto lg:h-[343px]'>
       <Link href={`/ai/${name}`} title={title} className='group relative'>
         <img
           src={screenshot_thumbnail_data || ''}
@@ -39,7 +39,7 @@ export default function WebNavCard({
           <span className='sr-only'>{title}</span>
         </a>
       </div>
-      <p className='mb-1 line-clamp-3 h-1/2 px-[6px] text-xs  text-gray-500 lg:mb-1 lg:text-sm'>{description}</p>
+      <p className='mb-1 line-clamp-3 h-1/2 px-[6px] text-sm  text-gray-500 lg:mb-1 lg:text-sm'>{description}</p>
       <div className='flex h-fit w-fit items-center justify-center gap-[2px] whitespace-nowrap  text-xs '>
         {tags_list.slice(0, 2).map((item) => (
           <p
