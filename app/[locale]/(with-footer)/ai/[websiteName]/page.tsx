@@ -120,8 +120,25 @@ export default async function Page({ params: { websiteName } }: { params: { webs
       </div>
       <Separator className='bg-[#010101]' />
       <div className='mb-5 px-3 lg:px-0'>
-        <h2 className='my-5 text-2xl font-bold text-gray-700 lg:my-10'>{t('introduction')}</h2>
+        <h2 id='introduction' className='my-5 text-2xl font-bold text-gray-700 lg:my-10'>
+          {t('introduction')}
+        </h2>
         <MarkdownProse markdown={data?.detail || ''} className='text-gray-700 ' />
+      </div>
+      <div className='mx-auto mt-8 max-w-[90%] md:max-w-xl lg:right-10 xl:fixed xl:bottom-10 xl:mx-0 xl:mt-0 xl:-translate-y-1/3 xl:transform ltr:xl:right-10 rtl:xl:left-10'>
+        <div className='w-lg break-words rounded-xl border border-gray-200 bg-slate-50 px-8 py-6 text-left text-gray-800 shadow-md'>
+          <div className='mx-auto text-xl font-semibold'>
+            <strong>{t('toc')}</strong>
+          </div>
+          <ul className='mt-2 list-disc px-2 pl-6'>
+            <li>
+              <a className='block rounded-lg px-2 py-1 hover:bg-gray-200' href='#introduction'>
+                {t('introduction')}
+              </a>
+            </li>
+            {/* <li><a className='block px-2 py-1 rounded-lg hover:bg-gray-200' href='#features'>Features</a></li> */}
+          </ul>
+        </div>
       </div>
     </div>
   );
