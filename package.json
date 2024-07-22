@@ -24,6 +24,7 @@
     "npm": "please-use-pnpm"
   },
   "dependencies": {
+    "@clerk/nextjs": "5.2.4",
     "@hookform/resolvers": "3.3.4",
     "@radix-ui/react-label": "2.0.2",
     "@radix-ui/react-select": "2.0.0",
@@ -59,6 +60,7 @@
     "@typescript-eslint/eslint-plugin": "^7.5.0",
     "@typescript-eslint/parser": "^7.5.0",
     "autoprefixer": "^10.0.1",
+    "daisyui": "4.12.10",
     "eslint": "^8",
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-airbnb-typescript": "18.0.0",
