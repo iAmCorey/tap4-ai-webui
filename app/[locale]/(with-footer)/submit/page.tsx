@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 
-// import Faq from '@/components/Faq';
+import Faq from '@/components/Faq';
 
 import SubmitForm from './SubmitForm';
 
@@ -28,7 +28,7 @@ export default function Page() {
         <h2 className='mt-[5px] text-sm font-bold lg:my-3'>{t('subTitle')}</h2>
         <SubmitForm />
       </div>
-      {/* <Faq /> */}
+      <Faq />
     </div>
   );
 }

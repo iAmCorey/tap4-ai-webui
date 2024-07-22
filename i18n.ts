@@ -9,7 +9,7 @@ export const languages = [
   },
   {
     code: 'ja-JP',
-    lang: 'jp',
+    lang: 'ja',
     label: '日本語',
   },
   {
@@ -39,7 +39,7 @@ export const languages = [
   },
   {
     code: 'zh-CN',
-    lang: 'cn',
+    lang: 'zh',
     label: '简体中文',
   },
   {

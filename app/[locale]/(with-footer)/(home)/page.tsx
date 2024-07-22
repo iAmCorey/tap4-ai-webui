@@ -54,7 +54,7 @@ export default async function Page() {
         <div className='flex w-full items-center justify-center '>
           <div className='mt-5 w-fit rounded-xl border border-gray-300 px-3 py-1 text-center text-sm lg:mx-auto lg:mt-10'>
             <p>
-              🔥&nbsp;&nbsp;<span className='font-semibold'>12</span> {t('newly-add')}
+              🔥&nbsp;&nbsp;<span className='font-semibold'>30</span> {t('newly-add')}
             </p>
           </div>
         </div>

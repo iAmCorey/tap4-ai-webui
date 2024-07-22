@@ -8,7 +8,8 @@
     "submit": "Submit",
     "newtools": "New Tools",
     "startup": "Startup",
-    "menu": "menu"
+    "menu": "menu",
+    "newsletter": "Newsletter"
   },
   "Footer": {
     "title": "Magicbox.Tools",
@@ -25,19 +26,20 @@
   "Faq": {
     "title": "Frequently Asked Questions",
     "1": {
-      "question": "What is Open-source MagicBox.Tools AI Tools Directory?",
-      "answer": "MagicBox.Tools AI Tools Directory - MagicBox.Tools.ai is building an ai tools directory that helps you get your favorite ai tools. It can get ai writing tools, ai markting tools, ai paraphrasing tools, ai seo tools, ai study tools, ai generator tools, ai research tools, ai art tools, ai music tools, ai video tools, ai coding tools, ai photo tools and more here."
+      "question": "What is MagicBox.Tools AI Tools Directory?",
+      "answer": "MagicBox.Tools AI Tools Directory - MagicBox.Tools is building an ai tools directory that helps you get your favorite ai tools. It can get ai writing tools, ai markting tools, ai paraphrasing tools, ai seo tools, ai study tools, ai generator tools, ai research tools, ai art tools, ai music tools, ai video tools, ai coding tools, ai photo tools and more here."
     },
     "2": {
       "question": "How to found your ai tools in MagicBox.Tools ai tools directory?",
-      "answer-1": "1. Open MagicBox.Tools.ai.",
+      "answer-1": "1. Open MagicBox.Tools",
       "answer-2": "2. Explore the ai tools in the MagicBox.Tools ai tools directory.",
       "answer-3": "3. Click the ai tools that you need to get the detail and visit it."
     },
     "3": {
       "question": "What are the main features of MagicBox.Tools AI Tools Directory?",
       "answer-1": "1. Free AI Tools Directory: It's free to found your favorite AI Tools here.",
-      "answer-2": "2. Startup List: The free startup list for ai tools developers."
+      "answer-2": "2. The mass of AI Tools: Featuring over 10,000 AI tools and categorized into 16 different categories.",
+      "answer-3": "3. Startup List: The free startup list for ai tools developers."
     },
     "4": {
       "question": "Is it free to submit ai tools to MagicBox.Tools AI Tools Directory?",
@@ -45,11 +47,11 @@
     },
     "5": {
       "question": "What's the categories list of AI Tools that MagicBox.Tools AI Tools Directory support?",
-      "answer": "We will support all kinds of AI Tools later. Please wait for a few days."
+      "answer": "We will support all kinds of AI Tools later."
     },
     "6": {
       "question": "What's the frequency for the up of AI tools in MagicBox.Tools AI Directory?",
-      "answer": "The list of AI tools will be updated daily."
+      "answer": "The list of AI tools will be updated daily by GPT-4o automatically."
     },
     "7": {
       "question": "Is it support GPT-4o or Sora AI here?",
@@ -66,15 +68,11 @@
     "10": {
       "question": "What are the usage rights of the AI tools?",
       "answer": "MagicBox.Tools AI Tools Directory is just the AI Directory for AI tools. The usage rights of the AI tools are based on the AI tools' website."
-    },
-    "11": {
-      "question": "Does the webui of MagicBox.Tools AI Directory is open source?",
-      "answer": "Yes, we will open source the webui of MagicBox.Tools AI Directory in the github(https://github.com/6677-ai/MagicBox.Tools-ai-webui). Please star us."
     }
   },
   "FooterNavigation": {
     "privacyPolicy": {
-      "1-h1": "Privacy Policy for Open-source MagicBox.Tools AI Tools Directory",
+      "1-h1": "Privacy Policy for MagicBox.Tools AI Tools Directory",
       "1-p": "This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service. If you choose to use my Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that I collect is used for providing and improving the Service. I will not use or share your information with anyone except as described in this Privacy Policy. The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions.",
       "2-h2": "1. Information Collection and Use",
       "2-p": "For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information. The information that I request will be retained on your device and is not collected by me in any way. The app does use third-party services that may collect information used to identify you.",
@@ -165,13 +163,20 @@
       "toc": "Table of Contents"
     }
   },
+  "Newsletter": {
+    "title": "Keep track of from the newest awesome AI tools",
+    "description": "Each week, we'll send you a detailed look at the newly added AI tools at this week. We'll breakdown:",
+    "breakdown-1": "Brief introduction of the AI tool",
+    "breakdown-2": "Main features of the AI tool",
+    "breakdown-3": "Advantages and disavantages of the AI tools"
+  },
   "Explore": {
     "title": "Discover The Best AI Tools & Websites",
     "subTitle": "Featuring over 10,000 awesome AI tools websites and continuously updated daily by ChatGPT!"
   },
   "Metadata": {
     "home": {
-      "title": "Discover the best AI Tools | Open-source Magicbox.Tools AI Tools Directory",
+      "title": "Discover the best AI Tools | Magicbox.Tools AI Tools Directory",
       "description": "Magicbox.Tools AI Directory is a tool provides free AI Tools Directory. Get your favorite AI tools with Magicbox.Tools AI Directory, Magicbox.Tools AI Directory aims to collect all the AI tools and provide the best for users.",
       "keywords": "Magicbox.Tools AI Directory"
     },
@@ -179,7 +184,7 @@
       "titleSubfix": "Magicbox.Tools AI Directory"
     },
     "explore": {
-      "title": "Best AI Tools Explore 2024 | Open-source Magicbox.Tools AI Tools Directory",
+      "title": "Best AI Tools Explore 2024 | Magicbox.Tools AI Tools Directory",
       "titlePrefix": "Magicbox.Tools AI Directory Explore",
       "titleSuffix": "Magicbox.Tools AI Directory",
       "description": "Magicbox.Tools AI Directory is a tool provides free AI Tools Directory. Get your favorite AI tools with Magicbox.Tools AI Directory, Magicbox.Tools AI Directory aims to collect all the AI tools and provide the best for users.",
