@@ -46,6 +46,11 @@ export default function Footer() {
       title: 'Woy AI Tools Directory',
       href: 'https://woy.ai/',
     },
+    {
+      name: 'DokeyAI',
+      title: 'Dokey AI Tools Directory',
+      href: 'https://dokeyai.com/',
+    },
   ];
 
   const INFO_LIST = [
