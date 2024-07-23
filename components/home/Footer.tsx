@@ -51,6 +51,21 @@ export default function Footer() {
       title: 'Dokey AI Tools Directory',
       href: 'https://dokeyai.com/',
     },
+    {
+      name: 'AI WITH.ME',
+      title: 'AI WITH.ME | Discover thousands of AI Tools',
+      href: 'https://aiwith.me',
+    },
+    {
+      name: 'AiToolsHubs',
+      title: 'AiToolsHubs',
+      href: 'https://www.aitoolshubs.com/',
+    },
+    {
+      name: 'AI Tool Center',
+      title: 'AI Tool Center',
+      href: 'https://aitoolcenter.com/',
+    },
   ];
 
   const INFO_LIST = [
