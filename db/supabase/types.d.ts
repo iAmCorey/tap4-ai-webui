@@ -169,6 +169,7 @@ export type Database = {
           status: number;
           priority: number;
           tags_list: string[];
+          is_feature: number;
         };
         Insert: {
           category_name?: string | null;
@@ -191,6 +192,7 @@ export type Database = {
           fav_count?: number | null;
           status?: number | null;
           priority?: number | null;
+          is_feature?: number | null;
         };
         Update: {
           category_name?: string | null;
@@ -213,6 +215,7 @@ export type Database = {
           fav_count?: number | null;
           status?: number | null;
           priority?: number | null;
+          is_feature?: number | null;
         };
         Relationships: [];
       };
