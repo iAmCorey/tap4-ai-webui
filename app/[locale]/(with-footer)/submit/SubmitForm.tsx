@@ -9,7 +9,7 @@ import { useForm } from 'react-hook-form';
 import { toast } from 'sonner';
 import { z } from 'zod';
 
-import { FORM_PLACEHOLDER, WEBSITE_EXAMPLE } from '@/lib/constants';
+import { EMAIL_PLACEHOLDER, FORM_PLACEHOLDER, WEBSITE_EXAMPLE } from '@/lib/constants';
 import { cn } from '@/lib/utils';
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@/components/ui/form';
 import { Input } from '@/components/ui/input';
@@ -18,6 +18,7 @@ import Spinning from '@/components/Spinning';
 const FormSchema = z.object({
   website: z.string(),
   url: z.string().url(),
+  email: z.string().email(),
 });
 
 export default function SubmitForm({ className }: { className?: string }) {
@@ -31,6 +32,7 @@ export default function SubmitForm({ className }: { className?: string }) {
     defaultValues: {
       website: '',
       url: '',
+      email: '',
     },
   });
 
@@ -44,8 +46,8 @@ export default function SubmitForm({ className }: { className?: string }) {
         .insert({
           name: formData.website,
           url: formData.url,
+          email: formData.email,
           status: 0,
-          // email: ''
         });
       if (error) {
         errMsg = error.message;
@@ -96,6 +98,23 @@ export default function SubmitForm({ className }: { className?: string }) {
                 <FormControl>
                   <Input
                     placeholder={FORM_PLACEHOLDER}
+                    className='input-border-pink bg-dark-bg h-[42px] w-full rounded-[8px] border-[0.5px] p-5'
+                    {...field}
+                  />
+                </FormControl>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
+          <FormField
+            control={form.control}
+            name='email'
+            render={({ field }) => (
+              <FormItem className='space-y-1'>
+                <FormLabel>{t('email')}</FormLabel>
+                <FormControl>
+                  <Input
+                    placeholder={EMAIL_PLACEHOLDER}
                     className='input-border-pink bg-dark-bg h-[42px] w-full rounded-[8px] border-[0.5px] p-5'
                     {...field}
                   />

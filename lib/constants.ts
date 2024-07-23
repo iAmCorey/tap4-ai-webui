@@ -11,6 +11,10 @@ export const NAV_LINKS = [
     code: 'startup',
     href: '/startup',
   },
+  // {
+  //   code: 'newsletter',
+  //   href: '/newsletter',
+  // },
 ];
 
 export const RevalidateOneHour = 3600;
@@ -22,6 +26,7 @@ export const PAGE_SIZE = 20;
 export const InfoPageSize = 12;
 
 export const FORM_PLACEHOLDER = 'e.g. https://magicbox.tools/';
+export const EMAIL_PLACEHOLDER = 'e.g. contact@magicbox.tools';
 
 export const WEBSITE_EXAMPLE =
   '<a href="https://magicbox.tools/" title="MagicBox.Tools - AI Tools Directory">MagicBox.Tools - AI Tools Diresctory</a>';
