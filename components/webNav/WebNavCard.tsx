@@ -13,6 +13,7 @@ export default function WebNavCard({
   description,
   tags_list,
   is_feature,
+  is_follow,
 }: WebNavigation) {
   const t = useTranslations('Home');
 
@@ -39,10 +40,22 @@ export default function WebNavCard({
         </div>
       </Link>
       <div className='flex items-center justify-between px-[6px]'>
-        <a href={url} title={title} target='_blank' rel='nofollow' className='hover:opacity-70'>
+        <a
+          href={url}
+          title={title}
+          target='_blank'
+          rel={`${is_follow ? 'dofollow' : 'nofollow'}`}
+          className='hover:opacity-70'
+        >
           <h3 className='line-clamp-1 flex-1 font-bold lg:text-xl'>{title}</h3>
         </a>
-        <a href={url} title={title} target='_blank' rel='nofollow' className='hover:opacity-70'>
+        <a
+          href={url}
+          title={title}
+          target='_blank'
+          rel={`${is_follow ? 'dofollow' : 'nofollow'}`}
+          className='hover:opacity-70'
+        >
           <SquareArrowOutUpRight className='size-5' />
           <span className='sr-only'>{title}</span>
         </a>

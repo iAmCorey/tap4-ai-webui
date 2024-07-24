@@ -71,6 +71,7 @@ export type Database = {
           email: string | null;
           id: number;
           is_feature: number | null;
+          is_follow: number | null;
           priority: number | null;
           name: string | null;
           status: number | null;
@@ -82,6 +83,7 @@ export type Database = {
           email?: string | null;
           id?: number;
           is_feature?: number | null;
+          is_follow?: number | null;
           priority?: number | null;
           name?: string | null;
           status?: number | null;
@@ -93,6 +95,7 @@ export type Database = {
           email?: string | null;
           id?: number;
           is_feature?: number | null;
+          is_follow?: number | null;
           priority?: number | null;
           name?: string | null;
           status?: number | null;
@@ -170,6 +173,7 @@ export type Database = {
           priority: number;
           tags_list: string[];
           is_feature: number;
+          is_follow: number;
         };
         Insert: {
           category_name?: string | null;
@@ -193,6 +197,7 @@ export type Database = {
           status?: number | null;
           priority?: number | null;
           is_feature?: number | null;
+          is_follow?: number | null;
         };
         Update: {
           category_name?: string | null;
@@ -216,6 +221,7 @@ export type Database = {
           status?: number | null;
           priority?: number | null;
           is_feature?: number | null;
+          is_follow?: number | null;
         };
         Relationships: [];
       };
