@@ -102,3 +102,17 @@
 .tr-rounded {
   clip-path: xywh(0 0 100% 100% round 4px);
 }
+
+.imageContainer {
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 8px; /* 可选: 使图片边角圆润 */
+}
+
+.image {
+  transition: transform 0.3s ease; /* 动画效果 */
+}
+
+.imageContainer:hover .image {
+  transform: scale(1.2); /* 放大比例 */
+}

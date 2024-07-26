@@ -66,6 +66,11 @@ export default function Footer() {
       title: 'AI Tool Center',
       href: 'https://aitoolcenter.com/',
     },
+    {
+      name: 'AiHeron',
+      title: '智鹭AI导航',
+      href: 'https://www.aiheron.com/',
+    },
   ];
 
   const INFO_LIST = [

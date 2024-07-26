@@ -35,8 +35,8 @@ export default function Navigation() {
             </a>
             <div className='block lg:hidden'>{/* <MenuIcon className="w-4 h-4 text-gray-800" /> */}</div>
           </div>
-          {/* <div>
-            <Link className='hover:opacity-80' href='/' title={t('title')}>
+          <div>
+            {/* <Link className='hover:opacity-80' href='/' title={t('title')}>
               <BaseImage
                 src='/images/magicbox.svg'
                 alt={t('title')}
@@ -45,8 +45,8 @@ export default function Navigation() {
                 height={64}
                 className='size-[58px] lg:size-16'
               />
-            </Link>
-          </div> */}
+            </Link> */}
+          </div>
           {/* pc */}
           <div className='ml-auto flex h-full items-center gap-x-[46px]'>
             <ul className='hidden h-full flex-1 font-normal capitalize lg:flex lg:gap-x-12'>
