@@ -71,6 +71,11 @@ export default function Footer() {
       title: '智鹭AI导航',
       href: 'https://www.aiheron.com/',
     },
+    {
+      name: 'All in AI Tools',
+      title: 'Explore the Best AI Tools',
+      href: 'https://allinai.tools',
+    },
   ];
 
   const INFO_LIST = [
