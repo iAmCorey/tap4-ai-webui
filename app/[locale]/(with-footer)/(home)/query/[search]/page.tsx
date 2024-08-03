@@ -39,6 +39,8 @@ export default async function Page({ params }: { params: { search?: string } }) 
     .from('mb_site')
     .select()
     .eq('status', 1)
+    .order('priority', { ascending: false })
+    .order('create_time', { ascending: false })
     .ilike('title', `%${decodeURI(params?.search || '')}%`);
 
   return (
