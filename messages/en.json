@@ -54,8 +54,8 @@
       "answer": "The list of AI tools will be updated daily by GPT-4o automatically."
     },
     "7": {
-      "question": "Is it support GPT-4o or Sora AI here?",
-      "answer": "You can get the GPT-4o or Sora AI tool here. Here is the introduction of GPT-4o and Sora video, and you can visit the website of the tools."
+      "question": "How to advertise my product?",
+      "answer": "You can Put your product in the spotlight on our platform and reach more people who need your product. Contact us at contact@magicbox.tools to reach out for more information."
     },
     "8": {
       "question": "Troubleshooting",
@@ -123,10 +123,10 @@
     "ai-navigate": "AI Tools List",
     "exploreMore": "Get More",
     "checkDetail": "View Detail",
-    "search": "Search",
+    "search": "Search products",
     "result": "Search Result",
     "empty": "No data available",
-    "newly-add": "new awesome AI tools added this week",
+    "newly-add": "new awesome AI products added this week",
     "section-new": "Recently Added"
   },
   "Category": {

@@ -1,9 +1,12 @@
 /* eslint-disable react/jsx-no-target-blank */
 
+import Image from 'next/image';
 import Link from 'next/link';
 import { WebNavigation } from '@/db/supabase/types';
-import { CircleArrowRight, SquareArrowOutUpRight } from 'lucide-react';
-import { useTranslations } from 'next-intl';
+import { SquareArrowOutUpRight } from 'lucide-react';
+
+// import { CircleArrowRight } from 'lucide-react';
+// import { useTranslations } from 'next-intl';
 
 export default function WebNavCard({
   name,
@@ -15,7 +18,7 @@ export default function WebNavCard({
   is_feature,
   is_follow,
 }: WebNavigation) {
-  const t = useTranslations('Home');
+  // const t = useTranslations('Home');
 
   return (
     <div
@@ -27,17 +30,17 @@ export default function WebNavCard({
         </span>
       )}
       <Link href={`/ai/${name}`} title={title} className='group relative'>
-        <img
+        <Image
           src={screenshot_thumbnail_data || ''}
           alt={title}
           title={title}
           width={310}
           height={174}
-          className='aspect-[310/174] w-full rounded-xl bg-white/40 hover:opacity-70'
+          className='aspect-video rounded-xl object-cover object-center duration-200 ease-in-out hover:scale-[1.03] hover:opacity-80 hover:shadow-sm'
         />
-        <div className='absolute inset-0 z-10 hidden items-center justify-center gap-1 rounded-xl bg-black bg-opacity-50 text-xl text-white transition-all duration-200 group-hover:flex'>
+        {/* <div className='absolute inset-0 z-10 hidden items-center justify-center gap-1 rounded-xl bg-black bg-opacity-50 text-xl text-white transition-all duration-200 group-hover:flex'>
           {t('checkDetail')} <CircleArrowRight className='size-4' />
-        </div>
+        </div> */}
       </Link>
       <div className='flex items-center justify-between px-[6px]'>
         <a
