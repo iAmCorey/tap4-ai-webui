@@ -10,6 +10,7 @@ import { cn } from '@/lib/utils';
 
 // import BaseImage from '../image/BaseImage';
 import LocaleSwitcher from '../LocaleSwitcher';
+import CoffeeButton from './CoffeeButton';
 import MenuBtn from './MenuBtn';
 import NavigationDrawer from './NavigationDrawer';
 
@@ -65,6 +66,7 @@ export default function Navigation() {
               ))}
             </ul>
             <div className='flex items-center gap-x-3'>
+              <CoffeeButton />
               <LocaleSwitcher />
             </div>
           </div>

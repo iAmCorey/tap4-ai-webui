@@ -24,7 +24,7 @@ export default function LocaleSwitcher() {
   return (
     <Select value={localeVal} defaultValue={currentLocale} onValueChange={onValueChange}>
       <SelectTrigger className='flex h-8 w-[80px] items-center gap-1 rounded-[4px] bg-slate-100 px-2 text-black'>
-        <Icon src='/icons/global.svg' />
+        <Icon src='/icons/global.svg' className='hidden lg:flex' />
         <SelectValue placeholder='locale'>{localeVal.toUpperCase()}</SelectValue>
       </SelectTrigger>
       <SelectContent className='border-slate-200 bg-white text-gray-600'>
