@@ -76,6 +76,11 @@ export default function Footer() {
       title: 'Explore the Best AI Tools',
       href: 'https://allinai.tools',
     },
+    {
+      name: 'PH Copilot',
+      title: 'PH Copilot',
+      href: 'https://phcopilot.ai/?ref=coreychiu',
+    },
   ];
 
   const INFO_LIST = [
