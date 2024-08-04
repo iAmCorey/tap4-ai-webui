@@ -5,11 +5,14 @@ import Navigation from '@/components/home/Navigation';
 
 import './globals.css';
 
+// import '@radix-ui/themes/styles.css';
+
 import { Suspense } from 'react';
 
 import GoogleAdScript from '@/components/ad/GoogleAdScript';
 import SeoScript from '@/components/seo/SeoScript';
 
+// import { Theme } from '@radix-ui/themes';
 import Loading from './loading';
 
 export default function RootLayout({

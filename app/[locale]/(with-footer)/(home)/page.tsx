@@ -6,6 +6,7 @@ import { CircleChevronRight } from 'lucide-react';
 import { getTranslations } from 'next-intl/server';
 
 import { RevalidateOneHour } from '@/lib/constants';
+import Hero from '@/components/home/Hero';
 // import Faq from '@/components/Faq';
 import SearchForm from '@/components/home/SearchForm';
 import WebNavCardList from '@/components/webNav/WebNavCardList';
@@ -43,6 +44,17 @@ export default async function Page() {
       .from('mb_site')
       .select()
       .eq('status', 1)
+      // .order('priority', { ascending: false })
+      .order('create_time', { ascending: false })
+      .limit(20),
+  ]);
+
+  const [{ data: featureList }] = await Promise.all([
+    supabase
+      .from('mb_site')
+      .select()
+      .eq('status', 1)
+      .eq('is_feature', 1)
       .order('priority', { ascending: false })
       .order('create_time', { ascending: false })
       .limit(20),
@@ -50,22 +62,23 @@ export default async function Page() {
 
   return (
     <div className='relative w-full'>
-      <div className='relative mx-auto w-full max-w-pc flex-1 px-3 lg:px-0'>
-        <div className='flex w-full items-center justify-center '>
+      <Hero dataList={featureList!} />
+      <div className='relative mx-auto w-full max-w-pc flex-1 px-3 lg:px-0' id='#explore'>
+        {/* <div className='flex w-full items-center justify-center '>
           <div className='mt-5 w-fit rounded-xl border border-gray-300 px-3 py-1 text-center text-sm lg:mx-auto lg:mt-10'>
             <p>
-              🔥&nbsp;&nbsp;<span className='font-semibold'>30</span> {t('newly-add')}
+              🔥&nbsp;&nbsp;<span className='font-semibold'>32</span> {t('newly-add')}
             </p>
           </div>
         </div>
         <div className='mb-5 flex flex-col text-center lg:mx-auto lg:mb-10 lg:gap-1'>
           <h1 className='pb-4 pt-4 text-3xl font-bold text-black lg:text-5xl'>{t('title')}</h1>
           <h2 className='text-ray-800 text-balance text-sm lg:text-lg'>{t('subTitle')}</h2>
-        </div>
-        <div className='flex w-full items-center justify-center pb-10 pt-6'>
+        </div> */}
+        {/* <div className='flex w-full items-center justify-center pb-10 pt-6'>
           <SearchForm />
-        </div>
-        <div className='mb-10 mt-10'>
+        </div> */}
+        <div className='mb-10 mt-6'>
           <TagList
             data={categoryList!.map((item) => ({
               id: String(item.id),
@@ -74,7 +87,10 @@ export default async function Page() {
             }))}
           />
         </div>
-        <div className='my-6 text-3xl font-bold text-gray-800'>{t('section-new')}</div>
+        <div className='my-6 flex flex-row justify-between'>
+          <div className='text-3xl font-bold text-gray-800'>{t('section-new')}</div>
+          <SearchForm />
+        </div>
         <div className='flex flex-col gap-5'>
           {/* <h2 className='text-center text-[18px] lg:text-[32px]'>{t('ai-navigate')}</h2> */}
           <WebNavCardList dataList={navigationList!} />
